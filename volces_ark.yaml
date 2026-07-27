@@ -1,0 +1,10 @@
+# 火山方舟 Volces Ark 模型接入预设
+# 适配国内环境 OpenAI 兼容接口
+provider_type: openai_compatible
+display_name: 火山方舟（字节跳动）
+api_base: https://ark.cn-beijing.volces.com/api/v3
+default_model: deepseek-v4-flash
+usage_tips:
+  1. 填入个人火山方舟API Key即可直接调用
+  2. 解决国内访问海外接口网络中断、超时问题
+  3. 支持平台内部所有部署的大模型
